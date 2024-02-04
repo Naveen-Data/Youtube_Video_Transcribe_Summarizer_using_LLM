@@ -1,0 +1,11 @@
+prefix=/Users/naveenchaudhary/Documents/ML_Projects/YTSusingLLM/venv
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+toolexeclibdir=${libdir}
+includedir=/Users/naveenchaudhary/Documents/ML_Projects/YTSusingLLM/venv/include
+
+Name: libffi
+Description: Library supporting Foreign Function Interfaces
+Version: 3.4.4
+Libs: -L${toolexeclibdir} -lffi
+Cflags: -I${includedir}
